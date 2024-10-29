@@ -2,6 +2,7 @@ spring:
   datasource:
     doris:  # Doris ?????
       driver-class-name: com.mysql.cj.jdbc.Driver
-      jdbc-url: jdbc:mysql://192.168.2.130:9030/doris_db?useSSL=false&serverTimezone=UTC
+#      jdbc-url: jdbc:mysql://192.168.2.130:9030/doris_db?useSSL=false&serverTimezone=UTC
+      jdbc-url: jdbc:mysql://192.168.10.75:9030/doris_db?useSSL=false&serverTimezone=UTC
       username: root
       password:   # ??????????
